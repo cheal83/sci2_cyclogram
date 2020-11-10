@@ -123,12 +123,12 @@ module sci2_cyclogram (
      word_info3_data = `SCI2_W_DATA'h000;
      $display("");
      $display($time, " ns");
-     $display("cmd code:\t\t%b", cmd_code);
-     $display("chip address:\t%h", cmd_addr);
-     $display("group flag:\t\t%h", cmd_group);
-     $display("info word 1:\t%h", word_info1_data);
-     $display("info word 2:\t%h", word_info2_data);
-     $display("info word 3:\t%h", word_info3_data);
+     $display("cmd code:\t\t'b%b", cmd_code);
+     $display("chip address:\t'h%h", cmd_addr);
+     $display("group flag:\t\t'h%h", cmd_group);
+     $display("info word 1:\t'h%h", word_info1_data);
+     $display("info word 2:\t'h%h", word_info2_data);
+     $display("info word 3:\t'h%h", word_info3_data);
      
      
      #(PERIOD);
@@ -145,13 +145,13 @@ module sci2_cyclogram (
      word_info4_data = `SCI2_W_DATA'h000;
      $display("");
      $display($time, " ns");
-     $display("cmd code:\t\t%b", cmd_code);
-     $display("chip address:\t%h", cmd_addr);
-     $display("group flag:\t\t%h", cmd_group);
-     $display("info word 1:\t%h", word_info1_data);
-     $display("info word 2:\t%h", word_info2_data);
-     $display("info word 3:\t%h", word_info3_data);
-     $display("info word 4:\t%h", word_info3_data);
+     $display("cmd code:\t\t'b%b", cmd_code);
+     $display("chip address:\t'h%h", cmd_addr);
+     $display("group flag:\t\t'h%h", cmd_group);
+     $display("info word 1:\t'h%h", word_info1_data);
+     $display("info word 2:\t'h%h", word_info2_data);
+     $display("info word 3:\t'h%h", word_info3_data);
+     $display("info word 4:\t'h%h", word_info3_data);
      
      
      #(PERIOD);
