@@ -3,70 +3,70 @@
    <wave_state>
    </wave_state>
    <db_ref_list>
-      <db_ref path="SCI2_cyclogramm_behav.wdb" id="1">
+      <db_ref path="sci2_cyclogram_behav.wdb" id="1">
          <top_modules>
-            <top_module name="SCI2_cyclogramm" />
             <top_module name="glbl" />
+            <top_module name="sci2_cyclogram" />
          </top_modules>
       </db_ref>
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="50050001fs"></ZoomEndTime>
+      <ZoomEndTime time="41950001fs"></ZoomEndTime>
       <Cursor1Time time="2000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="111"></NameColumnWidth>
-      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+      <ValueColumnWidth column_width="68"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="11" />
-   <wvobject fp_name="/SCI2_cyclogramm/clk_a" type="logic">
+   <wvobject fp_name="/sci2_cyclogram/clk_a" type="logic">
       <obj_property name="ElementShortName">clk_a</obj_property>
       <obj_property name="ObjectShortName">clk_a</obj_property>
    </wvobject>
-   <wvobject fp_name="/SCI2_cyclogramm/clk_b" type="logic">
+   <wvobject fp_name="/sci2_cyclogram/clk_b" type="logic">
       <obj_property name="ElementShortName">clk_b</obj_property>
       <obj_property name="ObjectShortName">clk_b</obj_property>
    </wvobject>
-   <wvobject fp_name="/SCI2_cyclogramm/data_a" type="logic">
+   <wvobject fp_name="/sci2_cyclogram/data_a" type="logic">
       <obj_property name="ElementShortName">data_a</obj_property>
       <obj_property name="ObjectShortName">data_a</obj_property>
    </wvobject>
-   <wvobject fp_name="/SCI2_cyclogramm/data_b" type="logic">
+   <wvobject fp_name="/sci2_cyclogram/data_b" type="logic">
       <obj_property name="ElementShortName">data_b</obj_property>
       <obj_property name="ObjectShortName">data_b</obj_property>
    </wvobject>
-   <wvobject fp_name="/SCI2_cyclogramm/clk" type="logic">
+   <wvobject fp_name="/sci2_cyclogram/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
    </wvobject>
-   <wvobject fp_name="/SCI2_cyclogramm/data" type="logic">
+   <wvobject fp_name="/sci2_cyclogram/word_num" type="array">
+      <obj_property name="ElementShortName">word_num[31:0]</obj_property>
+      <obj_property name="ObjectShortName">word_num[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sci2_cyclogram/data" type="logic">
       <obj_property name="ElementShortName">data</obj_property>
       <obj_property name="ObjectShortName">data</obj_property>
    </wvobject>
-   <wvobject fp_name="/SCI2_cyclogramm/word_num" type="array">
-      <obj_property name="ElementShortName">word_num[31:0]</obj_property>
-      <obj_property name="ObjectShortName">word_num[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
-   </wvobject>
-   <wvobject fp_name="/SCI2_cyclogramm/id" type="array">
+   <wvobject fp_name="/sci2_cyclogram/id" type="array">
       <obj_property name="ElementShortName">id[24:0]</obj_property>
       <obj_property name="ObjectShortName">id[24:0]</obj_property>
       <obj_property name="Radix">ASCIIRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/SCI2_cyclogramm/data_bit" type="array">
+   <wvobject fp_name="/sci2_cyclogram/data_bit" type="array">
       <obj_property name="ElementShortName">data_bit[31:0]</obj_property>
       <obj_property name="ObjectShortName">data_bit[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/SCI2_cyclogramm/word_bit" type="array">
+   <wvobject fp_name="/sci2_cyclogram/word_bit" type="array">
       <obj_property name="ElementShortName">word_bit[31:0]</obj_property>
       <obj_property name="ObjectShortName">word_bit[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
-   <wvobject fp_name="/SCI2_cyclogramm/cmd_bit" type="array">
+   <wvobject fp_name="/sci2_cyclogram/cmd_bit" type="array">
       <obj_property name="ElementShortName">cmd_bit[31:0]</obj_property>
       <obj_property name="ObjectShortName">cmd_bit[31:0]</obj_property>
-      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
    </wvobject>
 </wave_config>

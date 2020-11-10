@@ -1,0 +1,10 @@
+srcscan starts
+D:/WORKS/50_fsulmk/sci2_cyclogramm/src/sci2_cyclogram.v(2): INFO: Compiling verilog file "D:/WORKS/50_fsulmk/sci2_cyclogramm/src/sci2.vh" included at line 2. (VERI-9003)
+INFO: analyzing module sci2_cyclogram (VERI-9002)
+D:/WORKS/50_fsulmk/sci2_cyclogramm/src/sci2_word.v(3): INFO: Compiling verilog file "D:/WORKS/50_fsulmk/sci2_cyclogramm/src/sci2.vh" included at line 3. (VERI-9003)
+INFO: analyzing module sci2_word (VERI-9002)
+Listing tops:
+VeriTop library:xil_defaultlib mod:sci2_cyclogram
+END of tops
+D:/WORKS/50_fsulmk/sci2_cyclogramm/src/sci2_cyclogram.v(5): INFO: compiling module sci2_cyclogram (VERI-1018)
+srcscan exits with return value 0

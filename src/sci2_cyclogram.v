@@ -123,7 +123,7 @@ module sci2_cyclogram (
      word_info3_data = `SCI2_W_DATA'h000;
      $display("");
      $display($time, " ns");
-     $display("cmd code:\t\t%h", cmd_code);
+     $display("cmd code:\t\t%b", cmd_code);
      $display("chip address:\t%h", cmd_addr);
      $display("group flag:\t\t%h", cmd_group);
      $display("info word 1:\t%h", word_info1_data);
@@ -145,7 +145,7 @@ module sci2_cyclogram (
      word_info4_data = `SCI2_W_DATA'h000;
      $display("");
      $display($time, " ns");
-     $display("cmd code:\t\t%h", cmd_code);
+     $display("cmd code:\t\t%b", cmd_code);
      $display("chip address:\t%h", cmd_addr);
      $display("group flag:\t\t%h", cmd_group);
      $display("info word 1:\t%h", word_info1_data);

@@ -6,7 +6,8 @@ set fs [get_filesets sim_1]
 add_files  -fileset $fs -scan_for_includes "$path/src"
 set_property top sci2_cyclogram [get_filesets sim_1]
 update_compile_order -fileset sim_1
-
+start_gui
 launch_simulation
-run 10 us
-exit
+run 300 ns
+
+
